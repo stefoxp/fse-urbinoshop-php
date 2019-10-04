@@ -1,0 +1,4 @@
+#<Files ~ ".*\.jpg$">
+#    Order deny,allow
+#    Deny from all
+#</Files>

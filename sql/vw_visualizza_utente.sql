@@ -1,0 +1,2 @@
+﻿DROP VIEW IF EXISTS `vw_visualizza_utente`;
+CREATE OR REPLACE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `vw_visualizza_utente` AS select `t`.`IDutente` AS `IDutente`,`t`.`UserName` AS `UserName`,`t`.`Password` AS `Password`,`t`.`Ruolo` AS `Ruolo`,`t`.`Nome` AS `Nome`,`t`.`Indirizzo` AS `Indirizzo`,`t`.`Telefono` AS `Telefono`,`t`.`EMail` AS `EMail` from `tblutente` `t`;

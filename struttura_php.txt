@@ -1,0 +1,43 @@
+UrbinoShopPhp
+¦ categoria_catalogo.php
+¦ generale.css
+¦ index.php
+¦ prodotto_catalogo.php
+¦ prodotto_dettagli.php
+¦ prodotto_ricerca.php
+¦ utente_carrello.php
+¦ utente_carrello_aggiorna.php
+¦ utente_login.php
+¦ utente_logout.php
+¦ utente_reg.php
+¦+---admin
+¦ ¦ adminLogin.php
+¦ ¦ adminLogout.php
+¦ +---ssi
+¦ footer.php
+¦ header.php
++---immagini
+¦ bevande.jpg
+¦ birrablack.jpg
+¦ birralager.jpg
+¦ casciotta.jpg
+¦ cioccofondente.jpg
+¦ cioccolatte.jpg
+¦ dolci.jpg
+¦ formaggi.jpg
+¦ gelato.jpg
+¦ logo.jpg
+¦ logoTesto.gif
+¦ pane.jpg
+¦ panespeciale.jpg
+¦ panetoscano.jpg
+¦ pecorinoromano.jpg
+¦ vinobianco.jpg
+¦ vinorosso.jpg
++---ssi
+¦ autentica.php
+¦ Carrello.php
+¦ footer.php
+¦ header.php
+¦ shop_mysqli_funzioni.php
+¦ shop_mysql_costanti.php
