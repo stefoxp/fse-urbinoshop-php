@@ -8,11 +8,7 @@
 	
     // inizializzazioni (N.B. MySQL NON supporta le viste a parametro ma le stored procedure SI)
     $sql = "CALL sp_visualizza_carrello(" . $user_id .")";
-    $dati = null;
     $riga = array();
-    
-    // apre il rst
-    $dati = rst_apri($sql);
     
     // visualizza i dati recuperati
     $prodotto_codice = 0;
@@ -71,6 +67,6 @@
 </form>
 
 <?php
-    };//fine ciclo while
+    } //fine ciclo while
     include("ssi/footer.php");
-?>
+// ? >

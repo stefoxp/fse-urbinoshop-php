@@ -1,4 +1,4 @@
-<?php include("ssi/header.php") ?>
+<?php include("ssi/header.php"); ?>
 <!-- corpo della pagina -->
 <table border="0">
     <tr>
@@ -13,4 +13,8 @@
         </td>
     </tr>
 </table>
-<?php include("ssi/footer.php") ?>
+<?php 
+  include("ssi/footer.php");
+  // lascio volontariamente aperto il tag come suggerito da 
+  // https://stackoverflow.com/questions/39037412/netbeans-advises-me-to-not-have-a-closing-page-tag-in-php-why
+  // ? >

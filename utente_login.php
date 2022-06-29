@@ -112,4 +112,5 @@ else
     </td>
     </tr>
 </table>
-<?php include("ssi/footer.php") ?>
+<?php include("ssi/footer.php");
+// ? >

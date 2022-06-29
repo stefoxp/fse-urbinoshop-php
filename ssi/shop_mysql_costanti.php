@@ -16,4 +16,4 @@
     define("DB_TABELLA_PRODOTTO", "tblprodotto");
     define("DB_TABELLA_RUOLO", "tblruolo");
     define("DB_TABELLA_UTENTE", "tblutente");
-?>
+// ? >

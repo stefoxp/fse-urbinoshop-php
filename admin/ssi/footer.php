@@ -23,7 +23,7 @@
                     </tr>
                     <tr>
                         <td colspan="10">
-                            Copyright © 1995-2004 UrbinoShop Inc. Tutti i diritti riservati.
+                            Copyright 1995-2004 UrbinoShop Inc. Tutti i diritti riservati.
                             Marchi registrati e segni distintivi sono di propriet&agrave; dei rispettivi titolari.
                             L'uso di questo sito web implica l'accettazione dell'
                             <a href="accordo.htm">Accordo</a>

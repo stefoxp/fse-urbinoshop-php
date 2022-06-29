@@ -12,8 +12,6 @@ function login($str_username, $str_pw) {
     
     //inizializzazioni
     $sql = "";
-    $dati = "";
-    $riga = null;
     $intCodiceUtente = 0;
     
     //definisce la stringa SQL
@@ -22,9 +20,10 @@ function login($str_username, $str_pw) {
     
     // apre il rst
     $dati = rst_apri($sql);
+    $riga = rst_dati_ass($dati);
     
     //visualizza i dati recuperati
-    if ($riga = rst_dati_ass($dati)) {
+    if ($riga) {
         //verifica che si tratti di un amministratore
         if ($riga["Ruolo"] == 1) {
             //echo("<p>" . $riga["Ruolo"] . "</p>");
@@ -32,7 +31,6 @@ function login($str_username, $str_pw) {
             $intCodiceUtente = $riga["IDutente"];
             //inizializza la sessione
             echo("<h2>Login confermato.</h2>");
-            //session_start();
             //memorizza il codice utente nella var di Sessione
             $_SESSION['id_admin'] = $intCodiceUtente;
         } else {
@@ -51,7 +49,6 @@ function benvenuto() {
         echo("<p>Amministratore loggato con id_admin = " . $_SESSION['id_admin'] . "</p>");
         //visualizza un filetto orizzontale
         echo("<hr />");
-   
 ?>
 <table>
     <tr>
@@ -106,7 +103,7 @@ benvenuto();
     <tr>
         <td>
             <h2>Accesso all'area amministrativa.</h2>
-            <h4>L'accesso vi permetter� di amministrare il sito.</h4>
+            <h4>L'accesso vi permetter&agrave; di amministrare il sito.</h4>
         </td>
     </tr>
     <tr>
@@ -138,4 +135,5 @@ benvenuto();
     </td>
     </tr>
 </table>
-<?php include("ssi/footer.php") ?>
+<?php include("ssi/footer.php");
+// ? >

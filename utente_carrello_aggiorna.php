@@ -76,7 +76,7 @@ function carrello_aggiorna($comando_ricevuto, $utente_id) {
             echo("<p>Comando sconosciuto !</p>");
             //nulla
             break;
-    };
+    }
     //visualizza il carrello aggiornato
     redirect('utente_carrello.php',0);
 }
@@ -90,5 +90,5 @@ if ($_GET) {
 } else {
     // informa l'utente
     echo("<p>Attenzione: questa pagina non pu&ograve; essere visualizzata !</p>");
-};
-?>
+}
+// ? >

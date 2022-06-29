@@ -53,7 +53,7 @@ class Carrello_dettagli {
             $this->utente_id = $utente_codice;
             $this->prodotto_id = $prodotto_codice;
             $this->prodotto_quantita = $prodotto_quant;
-        };
+        }
     }//fine costruttore carrello_dettagli_obj
 }//fine classe Carrello_dettagli
 
@@ -120,4 +120,4 @@ class Carrello {
         rst_apri($sql, "Classe Carrello, metodo prodotto_elimina");
     } //fine metodo prodotto_elimina
 } //fine classe Carrello
-?>
+// ? >

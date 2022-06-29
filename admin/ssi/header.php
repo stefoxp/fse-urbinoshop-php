@@ -17,8 +17,8 @@
                         </td>
                         <td valign="bottom" colspan="3">
                             <img src="../immagini/logoTesto.gif" alt="Il logo di UrbinoShop" />
-                            <p>ATTENZIONE: questo è solo un esempio a scopo didattico:
-                            non è possibile ordinare nulla</p>
+                            <p>ATTENZIONE: questo &egrave; solo un esempio a scopo didattico:
+                                non &egrave; possibile ordinare nulla</p>
                         </td>
                     </tr>
                     <tr>

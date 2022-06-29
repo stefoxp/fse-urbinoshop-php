@@ -8,4 +8,4 @@
     
     // sposta l'utente sulla pagina di login
     header("Location: utente_login.php");
-?>
+// ? >

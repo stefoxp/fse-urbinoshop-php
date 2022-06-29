@@ -5,7 +5,6 @@
     
     // inizializzazioni
     $sql = "SELECT * FROM ". DB_TABELLA_CATEGORIA . " ORDER BY Nome;";
-    $dati = null;
     $riga = array();
     $codiceCategoria = 0;
     $nomeCategoria = "";
@@ -47,6 +46,6 @@
     </tr>
 </table>
 <?php
-    }; //fine ciclo while
+    } //fine ciclo while
     include("ssi/footer.php");
-?>
+// ? >

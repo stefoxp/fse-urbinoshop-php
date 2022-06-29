@@ -100,4 +100,4 @@ if ($_GET) {
     echo("Attenzione: � possibile accedere alla pagina solo dal Catalogo prodotti!");
 }
 include("ssi/footer.php");
-?>
+// ? >

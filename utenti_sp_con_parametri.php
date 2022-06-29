@@ -41,6 +41,6 @@
     </tr>
 </table>
 <?php
-    } 
+    } // fine ciclo 
     include("ssi/footer.php");
-?>
+// ? >

@@ -16,5 +16,5 @@
     } else {
         // l'utente non é loggato lo manda alla pagina di login
         header("Location: utente_login.php");
-    };
-?>
+    }
+// ? >

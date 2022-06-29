@@ -200,4 +200,5 @@ if ($_POST) {
         </tr>
     </table>
 </form>
-<?php include("ssi/footer.php") ?>
+<?php include("ssi/footer.php");
+// ? >

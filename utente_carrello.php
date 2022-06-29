@@ -149,4 +149,4 @@ function carrello_visualizza($utente_id) {
 carrello_visualizza($utente_codice);
 
 include("ssi/footer.php");
-?>
+// ? >
