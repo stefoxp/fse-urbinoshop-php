@@ -57,11 +57,12 @@
           </tr><!-- corpo -->
 
           <tr>
-            <td width="100" align="center" valign="top"><img src=
-            "%3C?php%20echo($prodotto_foto);%20?%3E" name="image"
-            width="100" height="100" border="0" alt=
-            "Foto di &lt;?php echo($prodotto_nome); ?&gt;" id=
-            "image"></td>
+            <td width="100" align="center" valign="top">
+                <img src="<?php echo($prodotto_foto); ?>" name="image"
+                     width="100" height="100" border="0" 
+                     alt="Foto di <?php echo($prodotto_nome); ?>;"
+                     id="image" >
+            </td>
 
             <td valign="top">
               <p><?php echo($prodotto_nome); ?></p>
@@ -70,7 +71,7 @@
               <strong><?php echo($prodotto_disponibile); ?></strong></p>
 
               <p><a href=
-              "prodotto_dettagli.php?IDprodotto=%3C?php%20echo($prodotto_codice);%20?%3E">
+                    "prodotto_dettagli.php?IDprodotto=<?php echo($prodotto_codice); ?>">
               Dettagli &gt;&gt;</a></p>
             </td>
           </tr>

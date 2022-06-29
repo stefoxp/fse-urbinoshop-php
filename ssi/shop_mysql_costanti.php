@@ -10,10 +10,10 @@
     define("DB_NOME","urbino_shop");
     
     // tabelle
-    define("DB_TABELLA_CARRELLO", "tblCarrello");
-    define("DB_TABELLA_CATEGORIA", "tblCategoria");
-    define("DB_TABELLA_ORDINE", "tblOrdine");
-    define("DB_TABELLA_PRODOTTO", "tblProdotto");
-    define("DB_TABELLA_RUOLO", "tblRuolo");
-    define("DB_TABELLA_UTENTE", "tblUtente");
+    define("DB_TABELLA_CARRELLO", "tblcarrello");
+    define("DB_TABELLA_CATEGORIA", "tblcategoria");
+    define("DB_TABELLA_ORDINE", "tblordine");
+    define("DB_TABELLA_PRODOTTO", "tblprodotto");
+    define("DB_TABELLA_RUOLO", "tblruolo");
+    define("DB_TABELLA_UTENTE", "tblutente");
 ?>

@@ -36,7 +36,7 @@
         <td width="100" align="center" valign="top">
             <img src="<?php echo($fotoCategoria); ?>" name="immagine" 
                  width="100" height="100" 
-                 border="0" alt="Foto di <?php echo($nomeCategoria); ?>"
+                 border="0" alt="Foto di <?php echo($nomeCategoria); ?>">
         </td>
         <td valign="top">
             <p><?php echo($descrizioneCategoria); ?>

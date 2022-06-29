@@ -1,5 +1,10 @@
 <?php
-
+/*
+ * visualizza tutti gli errori (utile in fase di sviluppo)
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+ */
 /*
  * Utilizza la libreria msqli (con approccio procedurale) 
  * al posto della precedente msql
@@ -30,10 +35,13 @@ function rst_apri($str_query, $contesto = "") {
     $connessione = mysqli_connect(DB_SERVER,
                                     DB_UTENTE_NOME,
                                     DB_UTENTE_PW,
-                                    DB_NOME)
+                                    DB_NOME,
+                                    3306)
                     or die($contesto
                             . "Problemi con la connessione al Server DB: " 
                             . mysqli_connect_error() ."<br />");
+    
+            // mysqli_connect($contesto, $str_query, $password, $database, $port)
     
     //esegue la query
     $rst = mysqli_query($connessione, 
@@ -47,7 +55,7 @@ function rst_apri($str_query, $contesto = "") {
 
     //restituisce il rst alla funzione
     return $rst;   
-};
+}
 
 /**
  * recupera i dati, una riga alla volta dal rst indicato
@@ -63,7 +71,7 @@ function rst_dati_ass($rst_aperto) {
 	
 	// restituisce il record
 	return $riga_dati;
-};
+}
 
 /**
  * verifica e restituisce il numero di record all'interno del rst
@@ -78,5 +86,5 @@ function rst_righe($rst_aperto) {
 	
 	// restituisce il risultato della verifica
 	return $verifica;
-};
+}
 ?>
